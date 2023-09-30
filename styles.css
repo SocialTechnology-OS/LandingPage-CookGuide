@@ -533,3 +533,114 @@ h5{
     }
 }
 
+
+/*--- RESPONSIVE CELULAR---*/
+
+@media (max-width: 428px) {
+    .main-picture{
+        height: 300px;
+        width: auto;
+    }
+    
+
+    .aboutus-card{
+        display: block;
+        text-align: center;
+    }
+    #aboutus-card-title{
+        text-align: left;
+    }
+    .aboutus-card-image{
+        padding-left: 0px;
+        padding-top: 10px;
+        height: 200px;
+        width: auto;
+    }
+    #title-aboutus-section .AboutUs-Title{
+        display: block;
+    }
+
+
+    .Mision-Vision-Card{
+        display: block;
+    }
+
+
+    .Descarga{
+        display: none;
+    }
+    .Logos{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .LogosAppPng{
+        height: 60px;
+        margin: 10px 20px;
+        transition: 0.3s all ease;
+    }
+    .LogosAppPng:hover{
+        transform: translateY(-10px);
+    }
+    .Descarganos{
+        font-family: 'Arvo', serif;
+        color:#E06B43;
+        font-weight: bold;
+        padding-bottom: 5px;
+        margin-top: 20px;
+    }
+
+
+    .Servicios-Tittle{
+        text-align: center;
+        
+    }
+    .Separador-ServTittle{
+        display: block;
+    }
+
+
+    .Func-Recetas, .Func-Planes, .Func-Pedidos{
+        display: flex;
+        padding: 20px 15px;
+        justify-content: space-around;
+    }
+    .Func-Recetas img, .Func-Planes img, .Func-Pedidos img{
+        height: 100px;
+        width: auto;
+        padding: 0px 10px 0px 10px;
+    }
+    .Func-Re-Text h5, .Func-Pl-Text h5, .Func-Pe-Text h5{
+        font-size: 14px;
+    }
+    .MoreDetails{
+        color: #E06B43;
+        margin-top:5px ;
+        padding: 2px 5px;
+        border-color: #E06B43;
+        border-radius: 10px;
+        border-width: 3px;
+        background-color: transparent;
+        transition: 0.3s all ease;
+        font-size: 12px;
+    }
+
+
+
+    .Contac-Name , .Contac-Apellido , .Contac-Email , .Contac-Telefono {
+        padding: 5px 0px;
+    }
+    .Contac-Name input, .Contac-Apellido input, .Contac-Email input, .Contac-Telefono input{
+        width: 200px;
+    }
+    .Contact-Message input{
+        width: 200px;
+    }
+
+
+    .app-logo{
+        height: 100px;
+        width: auto;
+    }
+}
