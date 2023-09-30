@@ -457,3 +457,79 @@ h5{
 .footer-social-media a:hover{
     color: var(--secondary-yellow);
 }
+
+
+/*--- RESPONSIVE TABLET---*/
+
+@media (max-width: 768px) {
+    .whatsapp-container{
+        display: none;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .main-text{
+        flex-direction: block;
+        text-align: center;
+    }
+    .main-button{
+        width: auto;
+        height: auto;
+        margin: 0px 40px;
+    }
+
+
+    .aboutus-card-image{
+        padding-top: 40px;
+    }
+
+
+    .Func-Tittle{
+        text-align: center;
+        color:#E06B43;
+        padding-top: 20px;
+    }
+    .Func-cards{
+        display: block;
+    }
+    .Func-Recetas, .Func-Planes, .Func-Pedidos{
+        display: flex;
+        margin-bottom: 40px;
+        justify-content: space-around;
+    }
+    .Func-Re-Text, .Func-Pl-Text, .Func-Pe-Text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Func-Planes {
+        display: flex;
+    }
+    .Func-Planes h5 {
+        order: 1; 
+    }
+    .Func-Planes .MoreDetails {
+        order: 2; 
+    }
+    .Func-Planes img {
+        order: 3; 
+    }
+      
+    
+    .container-Contac{
+        display: block;
+    }
+    .calificacion{
+        display: none;
+    }
+    .Nombre-Apellido, .Email-Telefono{
+        display: block;
+    }
+    .Contac-Name , .Contac-Apellido , .Contac-Email , .Contac-Telefono {
+        padding: 10px 20px;
+    }
+    .Contact-Message input{
+        width: 450px;
+    }
+}
+
